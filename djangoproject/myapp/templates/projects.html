@@ -1,0 +1,9 @@
+{% extends 'index.html' %}
+{% block content %}
+    <h1>{{title}}</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo blanditiis reiciendis modi dolorem veniam est facere recusandae, rerum deleniti? Aliquam vero rem molestiae aliquid, facilis nemo nulla ratione sed placeat voluptate exercitationem aut explicabo labore excepturi quasi ipsam debitis odit! Quae quas a animi sed similique deleniti quidem voluptate ipsa excepturi, voluptates molestias commodi vel ipsum rerum assumenda? Vel quaerat doloribus magni quibusdam doloremque obcaecati incidunt ex quos ipsum suscipit tenetur velit, fugit voluptatum? Praesentium, consequuntur nihil maxime omnis pariatur ex doloribus aspernatur totam quod ipsam porro earum magni, debitis illum! Consectetur libero aperiam, ipsa quod laboriosam illum nihil suscipit!</p>
+
+    {% for x in project %}
+    <h2>{{x}}</h2>
+    {% endfor %}
+{% endblock %}

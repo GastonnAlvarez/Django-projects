@@ -1,0 +1,28 @@
+body{
+    margin:0;
+}
+
+.navegacion{
+    position: sticky;
+    top: 0;
+    background-color: rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navegacion li{
+    list-style: none;
+    padding: 10px 10px;
+}
+
+.navegacion li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    cursor:pointer;
+    transition: color 0.3s;
+}
+
+.navegacion li a:hover{
+    color: pink;
+}
